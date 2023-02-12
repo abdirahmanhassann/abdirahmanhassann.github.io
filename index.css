@@ -119,6 +119,7 @@ header table {
     justify-content: center;
     text-align: center;
     padding: 0px 12%;
+   text-align-last: center;
 }
 #about h1 {
     font-size:45px;

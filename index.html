@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abdirahman Hassan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">AH.</td>
+                <td id="navigation">
+                    <a href="#bio">About me</a>
+                    <a href="#work">Projects</a>
+                    <a href="#contact">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>Abdirahman Hassan</h1>
+                <h3>Web developer</h3>
+               <a href="https://drive.google.com/file/d/1FHJIhW5h_sJTtLm34F0E_8WaS1fjKE79/view?usp=share_link" target="_blank">           
+            <button class="btn_one">View resume</button><br>
+               </a>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"  href="https://github.com/abdirahmanhassann" target="_blank"><i class="fa fa-github"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fa fa-linkedin-square"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3s;"><a class="social" href = "mailto:abdi12340.am@gmail.com"><i class="fa fa-envelope"></i></a></td>
+                        <!-- <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>  -->
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <div id="bio">
+        <h1>About me</h1>
+        <p>
+     I am a motivated web developer with a strong passion for crafting dynamic, interactive and user-friendly applications.
+        </p>
+        <p>
+I have experience with HTML5/CSS3, JavaScript (ES6), React JS, Java, Version control, Rest API, Redux JS, Firebase and Material UI 
+        </p>
+    </div>
+
+    <div id="work">
+        <h1>Projects</h1>
+        <div class="Projects">
+            <div id="projectdiv">
+                <img src="indeedportfolio.png" class="imagee"/>
+                <h3>Indeed Clone</h3>
+                <p id="projectpara">A multi-page full-stack application where job seekers and employers can apply/post jobs, search, review, and accept/reject applicants.</p>
+                <p id="projectpara">React, Redux, Material UI, Firebase and a third-party API.</p>
+                <div class="buttondiv">
+                    <a href="https://github.com/abdirahmanhassann/indeed-clone2" target="_blank">
+                        <button class="btn_one">Source</button>
+                    </a>
+                    <a href="https://indeedclone-abdirahmanhassann.vercel.app/" target="_blank">
+                        <button class="btn_one">Live</button>
+                    </a>
+                  </div>
+            </div>
+            <div id="projectdiv">
+                <img src="youtubeclonesc.png" class="imagee"/>
+                <h3>Youtube Clone</h3>
+                <p id="projectpara">A YouTube clone where users can search, watch, download, like, subscribe and view their watch history.</p>
+                <p id="projectpara">React, Redux, Firebase and the YouTube data v3 API.</p>
+                <div class="buttondiv">
+                    <a href="https://github.com/abdirahmanhassann/Youtube-clone" target="_blank">
+                        <button class="btn_one">Source</button>
+                    </a>
+                    <a href="https://youtube-clone-abdirahmanhassann.vercel.app" target="_blank">
+                        <button class="btn_one">Live</button>
+                    </a>
+                 </div>
+            </div>
+            <div id="projectdiv">
+                <img src="voxilandingpage.png" class="imagee"/>
+                <h3>Voxi Clone</h3>
+                <p id="projectpara">A multi-page Voxi clone where users can look through phones and make a purchase</p>
+                <p id="projectpara">React, Material UI and Stripe payement link</p>
+                <div class="buttondiv">
+                    <a href="">
+                        <button class="btn_one">Source</button>
+                    </a>
+                    <a href="https://voxi-clone-mnujgwa4e-abdirahmanhassann.vercel.app/">
+                        <button class="btn_one">Live</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h1>contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; +44 7737 206 518</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; abdi12340.am@gmail.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form action="mailto:abdi12340.am@gmail.com" method="post" enctype="text/plain">
+                            <input type="text" placeholder="name" required color="white">
+                            <input type="email" placeholder="email" required><br>
+                            <textarea placeholder="your message" required rows="5"></textarea><br>
+                            <button class="btn_one" value="send">send</button>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
